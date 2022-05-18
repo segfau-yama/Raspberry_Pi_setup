@@ -8,8 +8,8 @@
 ## プロキシの設定方法
 1. ターミナルで
 ```wget https://github.com/segfau-yama/Raspberry_Pi_setup/blob/master/set_proxy.sh```
-![ターミナル画面](raspberrypi2.png)
 を実行し[プロキシ設定用ファイル](set_proxy.sh)をダウンロードする
+![ターミナル画面](raspberrypi2.png)
 2. プロキシ下で行う場合は
 ```wget https://github.com/segfau-yama/Raspberry_Pi_setup/blob/master/set_proxy.sh -e use_proxy=yes -e http_proxy=プロキシサーバー名```
 を実行
