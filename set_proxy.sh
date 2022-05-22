@@ -1,6 +1,6 @@
 #!/bin/bash
 
-PROXY_HOST=wproxy.net.sendai-nct.ac.jp
+PROXY_HOST=proxy
 PROXY_PORT=8080
 read -p "UserName: " USER_NAME
 read -sp "Possword: " PASSWORD
