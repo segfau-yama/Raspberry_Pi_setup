@@ -18,6 +18,6 @@
 4. ```printenv http_proxy```で確認可能
 
 プロキシ設定はターミナルを閉じると消えてしまうため家でRaspberry Piを利用する以外は
-初めに```source set_proxy.sh```を実行しなければならないため注意
+初めに```source set_proxy.sh```を実行しなければならないので注意
 
 ## その他
