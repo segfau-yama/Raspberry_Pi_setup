@@ -20,4 +20,17 @@
 プロキシ設定はターミナルを閉じると消えてしまうため家でRaspberry Piを利用する以外は
 初めに```source set_proxy.sh```を実行しなければならないので注意
 
+## python3でのadafruit TCS34725ライブラリのインストール方法
+1. https://qiita.com/tkarube/items/31f503f55e30d9c3abd6 の例にならってcircuitpythonをインストール
+
+2. ```sudo pip3 install adafruit-circuitpython-tcs34725``` を実行
+
+3. ```cd``` を実行
+
+4. ```git clone https://github.com/adafruit/Adafruit_CircuitPython_TCS34725.git```を実行する
+
+5. ```cd Adafruit_CircuitPython_TCS34725/examples```を実行
+
+6. ```python3 tcs34725_simpletest.py```を実行
+
 ## その他
